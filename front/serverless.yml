@@ -1,0 +1,6 @@
+service: auth-front-back
+
+myNextApplication:
+  component: '@sls-next/serverless-component@1.18.0-alpha.19'
+  inputs:
+    domain: ['auth-front-back', 'allangalera.com']
